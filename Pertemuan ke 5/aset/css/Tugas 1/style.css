@@ -1,0 +1,25 @@
+body {
+    background-color: #18ac31c6;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3 {
+    color: #fdf9f9;
+}
+
+form {
+    background-color: rgb(154, 199, 8);
+    padding: 20px;
+    border: 1px solid #ca9e23;
+    width: 300px;
+}
+
+input {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(66, 27, 205);
+}
