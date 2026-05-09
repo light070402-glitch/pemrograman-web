@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas JavaScript</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 id="judul">Tugas JavaScript Interaktif</h1>
+
+        <!-- LATIHAN 1 -->
+        <div class="card">
+            <h2>1. Ubah Warna Background</h2>
+
+            <button id="btnWarna">
+                Ubah Warna
+            </button>
+        </div>
+
+        <!-- LATIHAN 2 -->
+        <div class="card">
+            <h2>2. Tampilkan Nama Mahasiswa</h2>
+
+            <input type="text" id="nama" placeholder="Masukkan nama">
+
+            <button id="btnNama">
+                Tampilkan Nama
+            </button>
+
+            <p id="hasilNama"></p>
+        </div>
+
+        <!-- LATIHAN 3 -->
+        <div class="card">
+            <h2>3. Validasi Form Login</h2>
+
+            <form id="formLogin">
+
+                <label>Username</label>
+                <input type="text" id="username">
+
+                <span class="error" id="errorUsername"></span>
+
+                <label>Password</label>
+                <input type="password" id="password">
+
+                <span class="error" id="errorPassword"></span>
+
+                <button type="submit">
+                    Login
+                </button>
+
+            </form>
+
+            <p id="pesanBerhasil"></p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
