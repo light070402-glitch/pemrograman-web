@@ -1,0 +1,44 @@
+body{
+    font-family: Arial;
+    background-color: lightgreen;
+}
+
+.container{
+    width: 300px;
+    margin: auto;
+    background-color: yellowgreen;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+.error{
+    color: red;
+    font-size: 13px;
+}
+
+.dashboard{
+    text-align: center;
+    margin-top: 100px;
+}
